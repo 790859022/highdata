@@ -241,6 +241,11 @@
             week: '%m-%d',
             month: '%Y-%m',
             year: '%Y'
+          },
+          labels: {
+              style: {
+                  color: '#fff'
+              }
           }
         },
         yAxis: {
@@ -310,9 +315,9 @@
               margin: 40
           },
           legend: {
-              itemStyle: {
-                  color: '#fff'
-              }
+            itemStyle:{
+                color:'#fff'
+            }
           },
           xAxis: {
                 type: 'datetime',
@@ -325,6 +330,12 @@
                     week: '%m-%d',
                     month: '%Y-%m',
                     year: '%Y'
+                }
+                ,
+                labels: {
+                    style: {
+                        color: '#fff'
+                    }
                 }
           },
           yAxis: {
@@ -339,7 +350,6 @@
               gridLineColor: '#333', //网格线样式
               tickAmount: 7 //显示刻度数
           },
-          legend: {enabled: true },
           tooltip: {
                 dateTimeLabelFormats: {
                     millisecond: '%H:%M:%S.%L',
